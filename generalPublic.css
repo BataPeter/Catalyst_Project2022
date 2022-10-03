@@ -1,34 +1,10 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline;
-  overflow: hidden;
-  width: 200px;
-  background-color: #f1f1f1;
-  border: 1px solid #555;
+html {
+  background-color: rgb(137, 184, 43);
+  background-image: url(goats.jpeg);
 }
-li a {
-  display: inline;
-  color: #000;
-  padding: 10px 16px;
-  text-decoration: none;
-  text-align: center;
-  border-right: 1px solid #555;
-  float: left;
-}
-li:last-child {
-  border-bottom: none;
-}
-li a:hover {
-  background-color: #111;
-  color: white;
-}
-.active {
-  color: white;
-  background-color: #04aa6d;
-}
+.general {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
 
-body {
-  background-color: rgba(50, 139, 144, 0.157);
+  text-align: center;
 }
